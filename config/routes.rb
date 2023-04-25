@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-
-  # this is a test line
   get("/", { :controller => "departments", :action => "index" })
   # Routes for the Department resource:
 
